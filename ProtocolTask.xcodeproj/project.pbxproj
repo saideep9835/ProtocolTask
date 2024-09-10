@@ -16,6 +16,9 @@
 		A516E5752C90CCD200B8095C /* ProtocolTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E5742C90CCD200B8095C /* ProtocolTaskTests.swift */; };
 		A516E57F2C90CCD200B8095C /* ProtocolTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E57E2C90CCD200B8095C /* ProtocolTaskUITests.swift */; };
 		A516E5812C90CCD200B8095C /* ProtocolTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E5802C90CCD200B8095C /* ProtocolTaskUITestsLaunchTests.swift */; };
+		A516E58E2C90CE8600B8095C /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E58D2C90CE8600B8095C /* ViewControllerB.swift */; };
+		A516E5902C90CEF300B8095C /* StateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E58F2C90CEF300B8095C /* StateViewCell.swift */; };
+		A516E5922C90CFB300B8095C /* CountryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A516E5912C90CFB300B8095C /* CountryList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A516E57A2C90CCD200B8095C /* ProtocolTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A516E57E2C90CCD200B8095C /* ProtocolTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTaskUITests.swift; sourceTree = "<group>"; };
 		A516E5802C90CCD200B8095C /* ProtocolTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A516E58D2C90CE8600B8095C /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		A516E58F2C90CEF300B8095C /* StateViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewCell.swift; sourceTree = "<group>"; };
+		A516E5912C90CFB300B8095C /* CountryList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				A516E5662C90CCD200B8095C /* Assets.xcassets */,
 				A516E5682C90CCD200B8095C /* LaunchScreen.storyboard */,
 				A516E56B2C90CCD200B8095C /* Info.plist */,
+				A516E58D2C90CE8600B8095C /* ViewControllerB.swift */,
+				A516E58F2C90CEF300B8095C /* StateViewCell.swift */,
+				A516E5912C90CFB300B8095C /* CountryList.plist */,
 			);
 			path = ProtocolTask;
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 				A516E5672C90CCD200B8095C /* Assets.xcassets in Resources */,
 				A516E56A2C90CCD200B8095C /* Base in Resources */,
 				A516E5652C90CCD000B8095C /* Base in Resources */,
+				A516E5922C90CFB300B8095C /* CountryList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A516E5622C90CCD000B8095C /* ViewController.swift in Sources */,
+				A516E58E2C90CE8600B8095C /* ViewControllerB.swift in Sources */,
 				A516E55E2C90CCD000B8095C /* AppDelegate.swift in Sources */,
 				A516E5602C90CCD000B8095C /* SceneDelegate.swift in Sources */,
+				A516E5902C90CEF300B8095C /* StateViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
